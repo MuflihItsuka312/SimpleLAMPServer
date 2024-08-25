@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine Game with Leaderboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slot-machine">
+        <h1>Slot Machine Game</h1>
+        <div class="slot-container">
+            <div class="slot" id="slot1">?</div>
+            <div class="slot" id="slot2">?</div>
+            <div class="slot" id="slot3">?</div>
+        </div>
+        <button onclick="spin()">Spin</button>
+        <p id="result"></p>
+        <div class="stats">
+            <h2>Statistics</h2>
+            <p>Total Spins: <span id="totalSpins">0</span></p>
+            <p>Total Wins: <span id="totalWins">0</span></p>
+        </div>
+        <div class="leaderboard">
+            <h2>Leaderboard</h2>
+            <ol id="leaderboardList"></ol>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
