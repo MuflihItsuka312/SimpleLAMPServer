@@ -60,6 +60,9 @@ systemctl reload apache2
 Setelah itu saya menambahkan index .html style .css dan script.js ke dalam path /var/www/html/ shidou.net public_html/
 Berikut adalah hasil setelah mengisi bagian front end dari web kami
 
+![image](https://github.com/user-attachments/assets/eece475f-3283-4781-83d1-c9b0f50563ee)
+
+
 
 Installasi PHP
 
@@ -85,6 +88,8 @@ phpinfo
 ?>
 Lalu ctrl + x dan enter lalu cek ke website interface apakah directory sudah ada atau belum
 http://13.83.89.227/info.php
+
+![image](https://github.com/user-attachments/assets/ddb64d35-cf97-40c5-bfdc-4bbe56eacd30)
 
 
 Jika muncul tampilan seperti gambar di atas, artinya PHP sudah terpasang.
@@ -120,6 +125,9 @@ Dalam proyek kami, isi database bisa dilihat dengan menjalankan perintah berikut
 USE slot_machines;
 SHOW TABLES;
 DESCRIBE leaderboard;
+
+![image](https://github.com/user-attachments/assets/f8dcb534-e7e9-42d0-86a3-6f666bc36ab7)
+
 
 
 Penutup
